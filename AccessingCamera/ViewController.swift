@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var newImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
+/*
+     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {                  if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {newImage.image = selectedImage}                  imagePicker.dismiss(animated: true, completion: nil)      }  }
 
+     */
 
 }
 
